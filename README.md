@@ -18,39 +18,28 @@
 
 ### Структура папок:
 
+**Структура папок:**
 ```
-├── src
-│   ├── XF
-│   │   └── MGDesigma
-│   │       └── ProductKeyGenerator
-│   │           ├── Listener
-│   │           │   └── ProductKeyGeneratorListener.php
-│   │           ├── Controller
-│   │           │   └── ProductKeyGeneratorController.php
-│   │           ├── Public
-│   │           │   └── Controller
-│   │           │       └── ProductKeyGeneratorPublicController.php
-│   │           ├── Model
-│   │           │   └── ProductKeyGeneratorModel.php
-│   │           ├── Setup
-│   │           │   └── ProductKeyGeneratorSetup.php
-│   │           └── Helper
-│   │               └── ProductKeyGeneratorHelper.php
-│   ├── addon.json
-│   ├── templates
-│   │   ├── public
-│   │   │   └── product_key_generator.less
-│   │   ├── admin
-│   │   │   └── product_key_generator_options.less
-│   │   └── admin
-│   │       └── product_key_generator_options.js
-│   ├── Resources
-│   │   └── public
-│   │       └── js
-│   │           └── product_key_generator.js
-│   ├── uninstall.php
-│   └── install.php
+XenResourceKeys/
+├── src/
+│   ├── KeysController.php 
+│   └── KeysModel.php 
+├── templates/
+│   ├── keys_tab.html
+│   ├── keys_download.html
+├── install/
+│   ├── index.php
+│   ├── Keys.json
+├── api/
+│   ├── index.php 
+│   ├── KeysApi.php
+├── public/
+│   ├── index.php
+│   ├── js/keys.js 
+│   ├── css/keys.css
+├── addon.json
 ```
+
 
 
 **Автор:** MGDesigma
