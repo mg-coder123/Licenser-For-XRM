@@ -16,6 +16,43 @@
 * Возможность включения/отключения генерации ключей для конкретных типов ресурсов.
 * Возможность экспорта ключей в формате CSV.
 
+### Структура папок:
+
+```
+├── src
+│   ├── XF
+│   │   └── MGDesigma
+│   │       └── ProductKeyGenerator
+│   │           ├── Listener
+│   │           │   └── ProductKeyGeneratorListener.php
+│   │           ├── Controller
+│   │           │   └── ProductKeyGeneratorController.php
+│   │           ├── Public
+│   │           │   └── Controller
+│   │           │       └── ProductKeyGeneratorPublicController.php
+│   │           ├── Model
+│   │           │   └── ProductKeyGeneratorModel.php
+│   │           ├── Setup
+│   │           │   └── ProductKeyGeneratorSetup.php
+│   │           └── Helper
+│   │               └── ProductKeyGeneratorHelper.php
+│   ├── addon.json
+│   ├── templates
+│   │   ├── public
+│   │   │   └── product_key_generator.less
+│   │   ├── admin
+│   │   │   └── product_key_generator_options.less
+│   │   └── admin
+│   │       └── product_key_generator_options.js
+│   ├── Resources
+│   │   └── public
+│   │       └── js
+│   │           └── product_key_generator.js
+│   ├── uninstall.php
+│   └── install.php
+```
+
+
 **Автор:** MGDesigma
 
 **Лицензия:** GPL-3.0
